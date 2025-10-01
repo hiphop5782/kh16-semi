@@ -6,9 +6,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Data  
+@Data
 @NoArgsConstructor
-@ToString(exclude = {"memberPw"})
+@ToString(exclude={"memberPw"})
 public class MemberDto {
 	private String memberId;
 	private String memberPw;
@@ -17,6 +17,7 @@ public class MemberDto {
 	private String memberContact;
 	private String memberEmail;
 	private String memberLevel;
+
 	private long memberPoint;
 	private String memberPost;
 	private String memberAddress1;
@@ -24,4 +25,6 @@ public class MemberDto {
 	private Timestamp memberJoin;
 	private Timestamp memberLogin;
 	private Timestamp memberChange;
+
+
 }
