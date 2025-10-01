@@ -8,7 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor @Builder @AllArgsConstructor
+@NoArgsConstructor @Builder @AllArgsConstructor 
 public class StudentDto {
 	private int studentNo;
 	private String studentName;

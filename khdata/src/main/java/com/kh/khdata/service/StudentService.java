@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class StudentService {
 	
-	//주석 추가
+	//학생 서비스 주석 추가
 
 }
