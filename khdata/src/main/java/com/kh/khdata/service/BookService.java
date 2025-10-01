@@ -1,6 +1,5 @@
 package com.kh.khdata.service;
 
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -9,6 +8,7 @@ public class BookService {
 	
 	// 이위섭.
 	@Transactional
-	public void error(String book_name) {
+	public int error(String book_name) {
+		return -1;
 	}
 }
