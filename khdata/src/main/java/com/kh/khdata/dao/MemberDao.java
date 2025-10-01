@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.kh.spring09.dto.MemberDto;
 import com.kh.spring09.mapper.MemberMapper;
 import com.kh.spring09.vo.PageVO;
-
+//s
 @Repository
 public class MemberDao {
 	@Autowired
