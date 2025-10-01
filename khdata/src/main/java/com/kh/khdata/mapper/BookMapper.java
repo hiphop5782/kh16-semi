@@ -16,6 +16,7 @@ public class BookMapper implements RowMapper<BookDto>{
 	public BookDto mapRow(ResultSet rs, int rowNum) throws SQLException {
 		// TODO Auto-generated method stub
 		BookDto bookDto = new BookDto();
+		bookDto.setBook_title(rs.getString("book_title"));
 		return bookDto;
 	}
 }

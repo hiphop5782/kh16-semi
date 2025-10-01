@@ -5,5 +5,7 @@ import lombok.Data;
 @Data
 public class BookDto {
 	// 이위섭.
-	private String book_name;
+	private int book_no;
+	private String book_title;
+	private String book_author;
 }
