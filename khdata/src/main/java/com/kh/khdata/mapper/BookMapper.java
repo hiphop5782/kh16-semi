@@ -17,5 +17,5 @@ public class BookMapper implements RowMapper<BookDao>{
 		BookDao bookDao = new BookDao();
 		return bookDao;
 	}
-	// 이위섭
+	// 이위섭.
 }

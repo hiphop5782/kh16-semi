@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data @Builder
 public class BookDto {
-	// 이위섭
+	// 이위섭.
 	public int book_name;
 }

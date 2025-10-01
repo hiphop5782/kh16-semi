@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class BookService {
 	
-	// 이위섭
+	// 이위섭.
 	@Repository
 	public void error(String book_name) {
 		return book_name;

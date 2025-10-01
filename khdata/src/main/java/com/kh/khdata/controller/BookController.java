@@ -13,5 +13,5 @@ public class BookController {
 	private BookDao bookDao;
 	@Autowired
 	private BookService bookService;
-	// 이위섭
+	// 이위섭.
 }
