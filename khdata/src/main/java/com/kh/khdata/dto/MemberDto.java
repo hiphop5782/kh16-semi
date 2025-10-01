@@ -22,5 +22,6 @@ public class MemberDto {
 	private String memberAddress1;
 	private String memberAddress2;
 	private Timestamp memberJoin;
+	private Timestamp memberLogin;
 	private Timestamp memberChange;
 }
