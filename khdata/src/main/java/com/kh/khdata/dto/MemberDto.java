@@ -1,5 +1,6 @@
 package com.kh.khdata.dto;
 
+
 import java.sql.Timestamp;
 
 import lombok.Data;
@@ -24,4 +25,5 @@ public class MemberDto {
 	private Timestamp memberJoin;
 	private Timestamp memberLogin;
 	private Timestamp memberChange;
+
 }
