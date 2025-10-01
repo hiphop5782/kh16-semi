@@ -1,6 +1,7 @@
 package com.kh.khdata.mapper;
 
 public class PokemonMapper {
-	//한수빈
-
+	// 임재혁
+	// Mapper 문제해결
+	
 }
