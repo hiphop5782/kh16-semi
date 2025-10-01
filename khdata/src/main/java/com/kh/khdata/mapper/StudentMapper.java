@@ -10,7 +10,7 @@ import com.kh.khdata.dto.StudentDto;
 
 @Component
 public class StudentMapper implements RowMapper<StudentDto> {
-
+	//주석 추가
 	@Override
 	public StudentDto mapRow(ResultSet rs, int rowNum) throws SQLException {
 		StudentDto studentDto = new StudentDto();
