@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import com.kh.khdata.dto.MemberDto;
 
-@Component
+@Component 
 public class MemberMapper implements RowMapper<MemberDto>{
 
 	@Override
