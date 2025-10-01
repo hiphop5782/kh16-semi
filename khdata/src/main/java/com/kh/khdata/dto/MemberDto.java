@@ -24,6 +24,4 @@ public class MemberDto {
 	private Timestamp memberJoin;
 	private Timestamp memberLogin;
 	private Timestamp memberChange;
-	
-	
 }
