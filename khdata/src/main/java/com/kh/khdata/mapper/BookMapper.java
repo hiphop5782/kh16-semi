@@ -6,16 +6,16 @@ import java.sql.SQLException;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
-import com.kh.khdata.dao.BookDao;
+import com.kh.khdata.dto.BookDto;
 
 @Component
-public class BookMapper implements RowMapper<BookDao>{
+public class BookMapper implements RowMapper<BookDto>{
 
-	@Override
-	public BookDao mapRow(ResultSet rs, int rowNum) throws SQLException {
-		// TODO Auto-generated method stub
-		BookDao bookDao = new BookDao();
-		return bookDao;
-	}
 	// 이위섭.
+	@Override
+	public BookDto mapRow(ResultSet rs, int rowNum) throws SQLException {
+		// TODO Auto-generated method stub
+		BookDto bookDto = new BookDto();
+		return bookDto;
+	}
 }

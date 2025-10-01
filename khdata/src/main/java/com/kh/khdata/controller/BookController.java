@@ -8,8 +8,9 @@ import com.kh.khdata.dao.BookDao;
 import com.kh.khdata.service.BookService;
 
 @Controller
-@RequestMapping(/book)
+@RequestMapping("/book")
 public class BookController {
+	@Autowired
 	private BookDao bookDao;
 	@Autowired
 	private BookService bookService;
